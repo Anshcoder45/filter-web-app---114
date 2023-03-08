@@ -1,0 +1,19 @@
+h3{
+    font-size: 25px !important;
+    color: black !important;
+}
+.btn-primary:hover{
+    color: aliceblue;
+    background-color: red;
+    font-size: 18px
+}
+canvas{
+  border: 2px dotted black;
+  animation-name: myanimation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes myanimation{
+    from{box-shadow: 5px 5px 40px darkblue;}
+    to{box-shadow: 5px 5px 40px darkred;}
+}
